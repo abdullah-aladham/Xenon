@@ -1,0 +1,29 @@
+body{
+    margin-top: 70px;;
+    font-family: "Tilt Neon" ;
+    direction: rtl;
+}
+nav>li>a,#brand,#fbrand{
+    font-family: "Neonderthaw";
+    color:#844fb0;
+    font-size: 2rem;
+}
+#nav1{
+    font-family: "Tilt Neon";
+}
+#brand:hover{
+    color:#7c16cf;
+}
+
+#main-section{
+    font-family:"Tilt Neon",serif ;
+    color:#7984d4 ;
+}
+#photos-title ,#relaxing-photos h2{
+    font-family:"Tilt Neon",serif ;
+
+}
+
+footer{
+    font-family: "Tilt Neon";
+}
