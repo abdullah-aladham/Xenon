@@ -2,8 +2,19 @@ body{
     margin-top: 70px;;
     font-family:"Tilt Neon" ;
 }
+#brand{
+     font-family: "Neonderthaw"; 
+     color:#844fb0;
+     font-size: 6em;
+
+}
+#brand:hover {
+    color:#d30bb8;
+    
+    
+}
 #nav0,#nav1,#nav2,#nav3,#brand,#fbrand{
-    font-family: "Neonderthaw";
+    /* font-family: "Neonderthaw"; */
     color:#844fb0;
     font-size: 2rem;
 }

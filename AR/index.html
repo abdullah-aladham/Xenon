@@ -2,35 +2,36 @@
 <html lang="en" id="html" data-bs-theme="dark">
 <head>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <!--Google fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Tilt+Neon&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Noto+Sans+Arabic:wght@100..900&family=Playwrite+AU+SA:wght@100..400&family=Tilt+Neon&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Xenon | A place to relax</title>
 </head>
-<body>
+<body id="body">
+    <!-- <script src="../index.js"></script> -->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark " id="navbar" >
+        <nav class="navbar fixed-top navbar-light bg-dark navbar navbar-expand-lg bg-body-tertiary" id="navbar" >
             <div class="container d-flex flex-row bd-highlight">
               
             <a class="navbar-brand" href="index.html" id="brand">Xenon</a>
            
-            <button 
-              class="navbar-toggler" 
-              type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#main-menu" 
-              aria-controls="main-menu" 
-              aria-expanded="false" 
-              aria-label="Toggle navigation"
-              >
+            <button class="navbar-toggler"
+             type="button"
+              data-bs-toggle="collapse"
+               data-bs-target="#main-menu"
+                aria-controls="main-menu" 
+                aria-expanded="false"
+                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
             <div class="container-fluid">
@@ -38,7 +39,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="main-menu">
 
                 <ul class="navbar-nav ms-10 mb-2 mb-lg-0 ">
-                    <!-- <a class="navbar-brand" id="nav0"></a> -->
+                    <a class="navbar-brand" id="nav0"></a>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html" id="nav0">الصفحة الرئيسية</a>
                   </li>
@@ -58,8 +59,45 @@
                </div>
             </div>
                
-            </nav>
-    </header>
+            </nav> 
+            <!-- <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Xenon</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                   data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                     aria-expanded="false" 
+                     aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">صور</a>
+                      </li>
+                      <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li> -->
+                      <!-- <li class="nav-item">
+                        <a class="nav-link ">فيديوهات</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav> -->
+    </header> 
 <!-- <nav id="sidebar-nav" class="collapse d-lg-block sidebar collapse bg-dark">
     <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4">
