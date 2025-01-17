@@ -9,9 +9,12 @@ body{
 
 }
 #brand:hover {
-    color:#d30bb8;
+    color:#320053;
     
     
+}
+.navbar-toggler{
+    border-style:none;
 }
 #nav0,#nav1,#nav2,#nav3,#brand,#fbrand{
     /* font-family: "Neonderthaw"; */

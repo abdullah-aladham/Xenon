@@ -17,6 +17,9 @@ body{
 #brand:hover{
     color:#7c16cf;
 }
+.navbar-toggler{
+    border-style:none;
+}
 
 #main-section{
     font-family:"Tilt Neon",serif ;
