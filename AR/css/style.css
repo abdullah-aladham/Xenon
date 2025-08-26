@@ -3,6 +3,9 @@ body{
     font-family: "Noto Sans Arabic" ;
     direction: rtl;
 }
+/* img{
+    width:320px;
+} */
 #nav0,#nav1,#nav2,#nav3,#brand,#fbrand{
     /* font-family: "Neonderthaw"; */
     color:#844fb0;
