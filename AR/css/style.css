@@ -1,6 +1,6 @@
 body{
-    margin-top: 70px;;
-    font-family: "Noto Sans Arabic" ;
+    margin-top: 70px;
+    font-family: "Playpen Sans Arabic" ;
     direction: rtl;
 }
 /* img{
@@ -10,10 +10,13 @@ body{
     /* font-family: "Neonderthaw"; */
     color:#844fb0;
     font-size: 2rem;
+        font-family: "Playpen Sans Arabic" ;
+
 }
-#nav1{
-    font-family: "Tilt Neon";
-}
+/* #nav1{
+        font-family: "Playpen Sans Arabic" ;
+
+} */
 #brand{
     font-family: Neonderthaw;
 }
@@ -23,15 +26,30 @@ body{
 .navbar-toggler{
     border-style:none;
 }
+#logo{
+    font-family: "Neonderthaw"; 
+    color:#844fb0;
+}
 
 #main-section{
-    font-family:"Tilt Neon",serif ;
+    /* font-family:"Tilt Neon",serif ; */
     color:#7984d4 ;
+    height: 580px;
 }
-#photos-title ,#relaxing-photos h2{
+#main-section h1{
+    margin-top:150px;
+    width:1000px;
+}
+/* #photos-title ,#relaxing-photos h2{
     font-family:"Tilt Neon",serif ;
 
-}
+} */
+ #relaxing-videos{
+    height:800px
+ }
+ #relaxing-photos{
+    margin-top:300px;
+ }
 
 footer{
     font-family: "Tilt Neon";
